@@ -52,13 +52,19 @@ Open `challenge8.html` in a browser to run Challenge 8.
 
 This project helped me understand how JavaScript operators work in practical situations.I also learned how small differences between operators can affect the result of my code,and why it is important to understand what JavaScript is doing instead of only focusing on the final output.
 
-## Screenshots
+## Output Screenshots
 
 ### Main file output in the terminal
+This is what I see when I run `node sijabulile-ncube-module3.js`. It prints the results of the challenges, for example the banking fees, the money transfer and the cart total.
+
 ![Terminal output](images/terminal-output.png)
 
 ### Challenge 8: welcome alert
+When `challenge8.html` opens in the browser, the first thing it does is show a welcome message with `alert()`.
+
 ![Challenge 8 welcome alert](images/challenge8-welcome.png)
 
 ### Challenge 8: name prompt
+After the welcome message, the page asks for my name with `prompt()`. If I click Cancel or leave it blank, it uses "Guest".
+
 ![Challenge 8 name prompt](images/challenge8-name-prompt.png)
