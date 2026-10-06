@@ -1,14 +1,14 @@
 # Melsoft Module 3 Checkpoint
 
-## Student Information
+## My Information
 
 **Name:** Sijabulile Ncube  
 **Email:** s.mabhena@gmail.com
 
 ## Project Links
 
-**GitHub Repository:** [View Repository](YOUR-GITHUB-REPOSITORY-LINK-HERE)  
-**Loom Video:** [Watch Loom Walkthrough](YOUR-LOOM-VIDEO-LINK-HERE)
+**GitHub Repository:** https://github.com/SIJABULILE-NCUBE/melsoft-module-3-checkpoint
+**Loom Video:** https://www.loom.com/share/cdbea31bd897468c9db008267211551f
 
 ## About This Project
 
