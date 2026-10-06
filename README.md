@@ -51,6 +51,3 @@ Open `challenge8.html` in a browser to run Challenge 8.
 
 This project helped me understand how JavaScript operators work in practical situations.I also learned how small differences between operators can affect the result of my code,and why it is important to understand what JavaScript is doing instead of only focusing on the final output.
 
-## Author
-
-**Sijabulile Ncube**
