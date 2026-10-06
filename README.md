@@ -55,12 +55,12 @@ This project helped me understand how JavaScript operators work in practical sit
 ## Output Screenshots
 
 ### Main file output in the terminal
-This is what I see when I run `node sijabulile-ncube-module3.js`. It prints the results of the challenges, for example the banking fees, the money transfer and the cart total.
+This is what I see when I run `node sijabulile-ncube-module3.js`.It prints the results of the challenges, for example the banking fees, the money transfer and the cart total.
 
 ![Terminal output](images/terminal-output.png)
 
 ### Challenge 8: welcome alert
-When `challenge8.html` opens in the browser, the first thing it does is show a welcome message with `alert()`.
+When `challenge8.html` opens in the browser,the first thing it does is show a welcome message with `alert()`.
 
 ![Challenge 8 welcome alert](images/challenge8-welcome.png)
 
