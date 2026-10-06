@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Challenge 8</title>
+</head>
+<body>
+  <h1>Challenge 8: User Interaction</h1>
+  <p>Refresh the page to run it again.</p>
+  <script>
+    //1 greet
+    window.alert("Welcome to our sign up page!");
+    //2 name,cancel gives null and blank gives "" so both go to Guest
+    const nameIn=window.prompt("What is your name?");
+    const userName=nameIn&&nameIn.trim()!==""?nameIn.trim():"Guest";
+    //3 age,prompt gives a string so I convert it
+    const ageIn=window.prompt("How old are you?");
+    const userAge=ageIn===null||ageIn.trim()===""?NaN:+ageIn;
+    if(isNaN(userAge)||userAge<1||userAge>120){
+      window.alert("That age is not valid,refresh and try again.");
+    }else{
+      //4 tier
+      const tier=userAge<18?"Youth":userAge<60?"Adult":"Senior";
+      //5 newsletter
+      const news=window.confirm("Do you want to subscribe to our newsletter?");
+      //6 summary
+      window.alert("Name:"+userName+"\nAge:"+userAge+"\nTier:"+tier+"\nNewsletter:"+(news?"Subscribed":"Not subscribed"));
+    }
+    /*
+    answers
+    1 blocking means the browser stops everything until the box is closed,so nothing else can run and the user cant click anything else.it is bad for modern apps because they must stay smooth and the boxes cannot be styled
+    2 developers use a custom modal now,like a bootstrap modal or sweetalert
+    3 prompt gives null if the user clicks cancel,and it gives an empty string "" if the field is blank and they click OK
+    sources:NetAcad module 3 and MDN pages for window.alert,window.confirm and window.prompt
+    */
+  </script>
+</body>
+</html>
