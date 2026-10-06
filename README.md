@@ -52,3 +52,13 @@ Open `challenge8.html` in a browser to run Challenge 8.
 
 This project helped me understand how JavaScript operators work in practical situations.I also learned how small differences between operators can affect the result of my code,and why it is important to understand what JavaScript is doing instead of only focusing on the final output.
 
+## Screenshots
+
+### Main file output in the terminal
+![Terminal output](images/terminal-output.png)
+
+### Challenge 8: welcome alert
+![Challenge 8 welcome alert](images/challenge8-welcome.png)
+
+### Challenge 8: name prompt
+![Challenge 8 name prompt](images/challenge8-name-prompt.png)
